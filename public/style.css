@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'Rosela';
+    src: url('./font/rosela_4/Rosela.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: '1';
+    src: url('./font/moora_light/MOORALIGHTREGULER.otf') format('truetype');
+  }
+  @font-face {
+    font-family: '2';
+    src: url('./font/rosela_4/lovely_balloon/LovelyBalloon.ttf') format('truetype');
+  }
+  
+  body{
+    font-weight: bolder!important;
+    background-image: url('./img/fondo.webp');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rosela', sans-serif;
+  }
+  
+  .row img{
+  -webkit-box-shadow: 1px 2px 5px 0px rgba(89,88,89,1);
+  -moz-box-shadow: 1px 2px 5px 0px rgba(89,88,89,1);
+  box-shadow: 1px 2px 5px 0px rgba(89,88,89,1);
+  }
+  
+  .img-shadow{
+    -webkit-box-shadow: 10px 10px 5px -9px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px -9px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px -9px rgba(0,0,0,0.75);
+  }
+
+  h1, h3{
+    font-family: '2'!important;
+  }
+
+#confirmUpload{
+    background-color: #b5976b;
+    border: none;
+    font-weight: bolder;
+    font-family: '1';
+    font-size: 15px;
+  }
+
+  
