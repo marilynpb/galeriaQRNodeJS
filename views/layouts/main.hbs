@@ -46,11 +46,10 @@
         <!-- Grid Fotos -->
         <div class="row mx-auto  px-3 px-sm-5 mt-4">
             {{#each files}}
-            
             <div class="col-lg-4 col-sm-6 col-md-6 mx-auto my-sm-4 my-2">
-                <img class="img img-container" width="100%" src="../../{{this}}" style="height: 250px;"/>
+                <img class="img img-container" width="100%" src="../../{{this}}" style="height: 280px;">
+                <a href="../../{{this}}" download><button class="btn btn-success mt-2">Descargar <img src="./img/download.svg" style="box-shadow: none;"></button></a>
             </div>
-
             {{/each}}
         </div>
     </div>
